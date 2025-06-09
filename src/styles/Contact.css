@@ -1,0 +1,41 @@
+.contact{
+    width:70%;
+    margin:auto;
+    padding:20px;
+    background-color: black;
+    border-radius: 15px;
+}
+.contact-form-detail{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-top: 20px;  
+}
+.contact-form-detail input,select,textarea,#submit-id{
+    padding:0.7rem; 
+    border-radius:7px;
+    border:none;
+    outline: none;
+    font-family: font2;
+    background-color: rgb(180, 188, 196);
+    /* background-color: tran; */
+}
+.contact-form-detail input,select,textarea:focus{
+    font-family: font2;
+    font-weight: 700;
+}
+.contact-form-detail select{
+    cursor: pointer;
+    padding-right:50px;
+}
+option{
+    cursor: pointer;
+}
+#submit-id{
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    cursor: pointer; 
+}
+#submit-id:hover{
+    transform: scale(0.9895);
+}

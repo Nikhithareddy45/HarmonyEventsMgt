@@ -1,0 +1,36 @@
+@font-face {
+  font-family: font1;
+  src: url('/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff2') format('woff2'),
+       url('/fonts/cabinet-grotesk/CabinetGrotesk-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: font2;
+  src: url('/fonts/satoshi/Satoshi-Light.woff2') format('woff2'),
+       url('/fonts/satoshi/Satoshi-Light.woff') format('woff');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body{
+  background-color: rgb(20, 20, 20);
+  color: aliceblue;
+}
+.font1{
+  font-family: font1;
+  font-weight: 300;
+}
+.font2, label{
+  font-family: font2;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.font1 span,.text-bg{
+  background: linear-gradient(90deg, #facc15, #ea6208); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg{
+  background: linear-gradient(90deg, #facc15, #ea6208);
+}
