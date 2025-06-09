@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import './styles/App.css'
+import './styles/App.css';
 import Weddings from './pages/Weddings';
 import Corporate from './pages/Corporate';
 import Portfolio from './pages/Portfolio';
@@ -18,7 +18,7 @@ function App() {
         <Route path="/weddings" element={<Weddings />} />
         <Route path="/corporate" element={<Corporate />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
