@@ -2,7 +2,14 @@ import React from 'react'
 import mainImage from './../assets/main-image.jpg'
 import '../styles/HomeContainer.css' 
 import MainImagepic from '../components/MainImagepic'
+import { useNavigate } from 'react-router-dom';
+
 function HomeContainer() {
+  const navigate = useNavigate();
+  const handlePlanEvent = () => navigate('/contact');
+
+  const handleViewPortfolio = () => navigate('/Portfolio');
+
   return (
     <div className='home-container'>
         <div className="home-container-1">
@@ -11,8 +18,8 @@ function HomeContainer() {
         </div>
         <MainImagepic img={mainImage} />
         <div className="home-container-3">
-            <button className='plan-btn font2'>Plan your Event</button>   
-            <button className='portfolio-btn font2'>View Portfolio</button>   
+            <button className='plan-btn font2' onClick={handlePlanEvent}>Plan your Event</button>   
+            <button className='portfolio-btn font2 'onClick={handleViewPortfolio}>View Portfolio</button>   
         </div>     
      
     </div>
