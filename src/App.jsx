@@ -8,10 +8,11 @@ import Corporate from './pages/Corporate';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/ContactPage';
 import Footer from './components/Footer';
-
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <Router>
+       <ScrollToTop /> 
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -14,19 +14,19 @@ function Contact() {
             <input type="email" name="email-id" id="email-id"  required/>
           </div>
           <div className="contact-form-detail">
-            <label for="services">Select Services</label>
-            <select name="services" aria-label="Select Services" required>
-                <option value="*" disabled selected>Select Services</option>
+            <label htmlFor="services">Select Services</label>
+            <select name="services" id="services" aria-label="Select Services" defaultValue="Select Services" required>
+                {/* <option value="*" disabled select>Select Services</option> */}
                 <option value="wedding">Destination Wedding</option>
                 <option value="corporate">Corporate Event</option>
             </select>
           </div>
           <div className="contact-form-detail">
-            <label for="detail-msg">Message</label>
+            <label htmlFor="detail-msg">Message</label>
             <textarea name="detail-msg" id="detail-msg" cols="20" rows="10" placeholder="Enter your Message" required></textarea>
           </div>
           <div className='contact-form-detail submit'>
-            <button type="submit" id="submit-id" class="bg">SUBMIT</button>
+            <button type="submit" id="submit-id" className="bg">SUBMIT</button>
           </div>
       </form> 
     </div>

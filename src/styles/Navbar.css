@@ -12,9 +12,8 @@
 }
 
 .navbar-left .logo {
-    width: 80px;
+    width: 3.5rem;
 }
-
 .navbar-left {
     display: flex;
     align-items: center;
@@ -23,7 +22,7 @@
 }
 
 .navbar-left h1 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .navbar-right {
@@ -40,17 +39,22 @@
 }
 
 .nav-links {
-    text-decoration: none;
-    color: aliceblue;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.5s ease;
 }
-.nav-links:hover{
-   background: linear-gradient(90deg, #facc15, #ea6208); 
+
+.nav-links:hover {
+  background: linear-gradient(90deg, #facc15, #ea6208);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.nav-links:focus{
+    transition:all 0.5s ease;
+}
 .menu-icon {
     display: none;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     cursor: pointer;
     margin-right: 20px;
@@ -71,12 +75,14 @@
         gap: 0;
         max-height: 0;
         overflow: hidden;
+        transition:all 0.5s ease;
     }
 
     .navbar-right.open {
         max-height: 350px;
         padding: 10px 0;
         background-color: rgb(26, 26, 26);
+        transition:all 0.5s ease;
     }
 
     .navbar-right li {
