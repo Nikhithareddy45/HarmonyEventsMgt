@@ -6,7 +6,10 @@ import { useNavigate } from 'react-router-dom';
 
 function HomeContainer() {
   const navigate = useNavigate();
-  const handlePlanEvent = () => navigate('/contact');
+  const handlePlanEvent = () => {
+    console.log('Plan your Event button clicked');
+    navigate('/contact');
+  }
 
   const handleViewPortfolio = () => navigate('/Portfolio');
 
