@@ -10,6 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
     <>
+    <div className='footer-container'>
     <footer className='footer'>
       <div className="footer-1">
           <img className="logo" src={logo} alt="logo" />
@@ -44,8 +45,10 @@ function Footer() {
       </div>
      
     </footer>
-       <p className="font2 copyright">Copyright ©️ 2024 |<strong> Harmony Events </strong>| All Rights Reserved</p>
-
+      <div className="copyright-div">
+         <p className="font2 copyright">Copyright ©️ 2024 |<strong> Harmony Events </strong>| All Rights Reserved</p>
+      </div>
+    </div>
     </>
   )
 }

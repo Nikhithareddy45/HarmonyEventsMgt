@@ -8,6 +8,14 @@
   src: url('/fonts/satoshi/Satoshi-Light.woff2') format('woff2'),
        url('/fonts/satoshi/Satoshi-Light.woff') format('woff');
 }
+@font-face {
+  font-family: font3;
+  src: url('/fonts/Higuen Serif.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -20,14 +28,31 @@ body{
 .font1{
   font-family: font1;
   font-weight: 300;
+  /* text-transform: uppercase; */
+}
+
+.font3{
+  font-family: font3;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+.font1{
+  font-family: font1;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.uppercase{
+  text-transform: uppercase;
 }
 .font2, label{
   font-family: font2;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
-.font1 span,.text-bg{
-  background: linear-gradient(90deg, #facc15, #ea6208); 
+.font1 span,.font3 span,.text-bg{
+  background: linear-gradient(90deg, #e4c136, rgb(184, 142, 35)); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

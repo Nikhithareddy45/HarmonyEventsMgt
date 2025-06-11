@@ -17,7 +17,7 @@ function Contact() {
             <label htmlFor="services">Select Services</label>
             <select name="services" id="services" aria-label="Select Services" defaultValue="Select Services" required>
                 {/* <option value="*" disabled select>Select Services</option> */}
-                <option value="wedding">Destination Wedding</option>
+                <option value="wedding"> Wedding Event</option>
                 <option value="corporate">Corporate Event</option>
             </select>
           </div>

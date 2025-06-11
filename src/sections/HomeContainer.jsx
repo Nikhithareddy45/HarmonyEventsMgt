@@ -16,7 +16,7 @@ function HomeContainer() {
   return (
     <div className='home-container'>
         <div className="home-container-1">
-            <h1 className="font1">Creates <span>Magical</span> Moments</h1>
+            <h1 className="font3">Creates <span>Magical</span> Moments</h1>
             <p className="font2">From intimate weddings to grand corporate celebrations, we transform your vision into unforgettable experiences</p>       
         </div>
         <MainImagepic img={mainImage} />

@@ -22,7 +22,7 @@ function Navbar() {
     >
       <div className="navbar-left">
         <img className="logo" src={logo} alt="logo" />
-        <h1 className="font1">
+        <h1 className="font3 text-bg">
           <span>Harmony Events</span>
         </h1>
       </div>
