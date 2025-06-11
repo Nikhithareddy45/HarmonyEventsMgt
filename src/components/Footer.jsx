@@ -14,7 +14,7 @@ function Footer() {
     <footer className='footer'>
       <div className="footer-1">
           <img className="logo" src={logo} alt="logo" />
-          <h1 className="font1"><span>Harmony Events</span></h1>
+          <h1 className="font3 upper"><span>Harmony Events</span></h1>
         <p className='font2'>
           Creating magical experiences for weddings and corporate events with traditional Indian elegance and modern luxury.
         </p>

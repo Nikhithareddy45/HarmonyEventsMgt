@@ -9,20 +9,24 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/ContactPage';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import LocomotiveScroll from './components/Locomotive';
+
 function App() {
   return (
-    <Router>
-       <ScrollToTop /> 
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/weddings" element={<Weddings />} />
-        <Route path="/corporate" element={<Corporate />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </Router>
+    // <LocomotiveScroll> 
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/weddings" element={<Weddings />} />
+          <Route path="/corporate" element={<Corporate />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </Router>
+    // </LocomotiveScroll>
   );
 }
 

@@ -25,12 +25,6 @@ body{
   background-color: rgb(20, 20, 20);
   color: aliceblue;
 }
-.font1{
-  font-family: font1;
-  font-weight: 300;
-  /* text-transform: uppercase; */
-}
-
 .font3{
   font-family: font3;
   font-weight: 500;
@@ -43,13 +37,17 @@ body{
   font-weight: 300;
   letter-spacing: 0.5px;
 }
-.uppercase{
+.upper{
   text-transform: uppercase;
 }
 .font2, label{
   font-family: font2;
   font-weight: 700;
   letter-spacing: 1px;
+}
+.font3{
+  font-size: 2.5rem;
+  margin-bottom: 6px;
 }
 .font1 span,.font3 span,.text-bg{
   background: linear-gradient(90deg, #e4c136, rgb(184, 142, 35)); 
@@ -58,4 +56,10 @@ body{
 }
 .bg{
   background: linear-gradient(90deg, #facc15, #ea6208);
+}
+
+@media (max-width: 430px) {
+  .font1{
+    font-size: 1.2rem;
+  }
 }

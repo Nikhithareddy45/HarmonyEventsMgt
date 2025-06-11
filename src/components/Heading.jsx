@@ -23,7 +23,7 @@ function Heading({ head, para }) {
         <path d="M5 18H3"></path>
       </svg>
       
-      <h2 className="font1 head-h1" dangerouslySetInnerHTML={{ __html: head }}></h2>
+      <h2 className="font3 head-h1" dangerouslySetInnerHTML={{ __html: head }}></h2>
       <p className="font2 head-p">{para}</p>
     </div>
   );

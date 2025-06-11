@@ -98,6 +98,7 @@
     }
     .navbar-left h1{
         font-size: 1.2rem;
+        margin-bottom: 5px;
     }
 }
 .navbar-right li a {
